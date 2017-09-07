@@ -12,13 +12,14 @@ CFLAGS= \
 	-Wunused-result \
 	-O3 \
 	-std=c99 \
-	-fmessage-length=0
-
+	-fmessage-length=0 \
+	-I/usr/include
+	
 LDFLAGS= \
 	-s
-
+	
 LDLIBS= \
-	-lmcp2221
+	-lmcp2221 -lusb-1.0 -lhidapi-libusb
 
 EXECUTABLE=$(PROJECT)
 

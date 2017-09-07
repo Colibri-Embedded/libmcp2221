@@ -7,8 +7,8 @@
  */
 
 #include <stdio.h>
-#include "../../libmcp2221/libmcp2221.h"
-#include "../../libmcp2221/hidapi.h"
+#include <libmcp2221/libmcp2221.h>
+#include <hidapi/hidapi.h>
 
 int main(void)
 {

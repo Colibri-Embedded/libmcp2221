@@ -1,0 +1,10 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: libmcp2221
+Description: C Library for USB HID device access from Linux, Mac OS X, FreeBSD, and Windows. This is the libusb implementation.
+Version: @VERSION@
+Libs: -L${libdir} -lmcp2221 -lusb-1.0
+Cflags: -I${includedir}/libmcp2221
