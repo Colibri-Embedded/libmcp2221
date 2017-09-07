@@ -41,6 +41,7 @@ AC_SUBST([CFLAGS_LIBUSB])
 
 AC_CONFIG_HEADERS([config.h])
 AC_CONFIG_FILES([
- Makefile
+ Makefile \
+ pc/libmcp2221.pc
 ])
 AC_OUTPUT
